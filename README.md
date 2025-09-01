@@ -8,6 +8,8 @@ This project provides an example of how to create a Virtual Private Cloud (VPC) 
 - **Enhanced Security**: The servers are placed in **private subnets**, which means they are not directly accessible from the public internet. All incoming requests are routed through the public-facing Application Load Balancer.
 - **Internet Connectivity for Servers**: While the servers are in private subnets, they still need to connect to the internet for tasks like software updates. This is made possible by a **NAT gateway** (Network Address Translation gateway), which is also deployed in **both Availability Zones** to maintain resiliency.
 
+![VPC Architecture Diagram](vpc_project.png)
+
 ## Key AWS Services Used
 
 - **Amazon VPC**: The foundational network environment.
