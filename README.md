@@ -25,5 +25,3 @@ This project provides an example of how to create a Virtual Private Cloud (VPC) 
 
 ---
 
-## Getting Started
-
